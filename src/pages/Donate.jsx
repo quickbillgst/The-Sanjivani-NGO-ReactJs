@@ -128,8 +128,8 @@ export default function Donate() {
                     key,
                     amount: amount.toString(),
                     currency,
-                    name: "The Sanjivani NGO :)",
-                    description: "Donation for Sanjivani Charity purpose.",
+                    name: "Gram Vikas Trust :)",
+                    description: "Donation for Gram Vikas Trust Charity purpose.",
                     image: "https://i.ibb.co/pWxpKHz/checkout.jpg",
                     order_id: order_id,
                     handler: async function (response) {

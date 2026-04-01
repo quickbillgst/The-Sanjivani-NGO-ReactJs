@@ -10,7 +10,7 @@ export default function Footer() {
                             <h2>Contact Us</h2>
                             <a href="https://maps.app.goo.gl/HQg6gMPpAJ445cda6" target="_blank" rel="noopener noreferrer"><p><i className="fa fa-map-marker-alt"></i>VIT, Pune, India</p></a>
                             <a href="tel:+91-7385223242"><p><i className="fa fa-phone"></i>+91-7385223242</p></a>
-                            <a href="mailto:sanjivani.vitswd@vit.edu"><p><i className="fa fa-envelope"></i>sanjivani.vitswd@vit.edu</p></a>
+                            <a href="mailto:contact@gramvikastrust.org"><p><i className="fa fa-envelope"></i>contact@gramvikastrust.org</p></a>
                             <div className="footer-social">
                                 <a className="btn btn-custom" href="https://twitter.com/vit_socials"><i className="fab fa-x-twitter"></i></a>
                                 <a className="btn btn-custom" href="https://www.facebook.com/vitsocials"><i className="fab fa-facebook-f"></i></a>
@@ -27,17 +27,17 @@ export default function Footer() {
                             <a href="/contact">Contact Us</a>
                             <a href="/event">Popular Causes</a>
                             <a href="/event">Upcoming Events</a>
-                            <a href="#">Latest Blog</a>
+                            <button className="btn btn-link p-0" style={{color: 'inherit'}}>Latest Blog</button>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <div className="footer-link">
                             <h2>Useful Links</h2>
-                            <a href="#">Terms of use</a>
-                            <a href="#">Privacy policy</a>
-                            <a href="#">Cookies</a>
-                            <a href="#">Help</a>
-                            <a href="#">FQAs</a>
+                            <button className="btn btn-link p-0" style={{color: 'inherit'}}>Terms of use</button>
+                            <button className="btn btn-link p-0" style={{color: 'inherit'}}>Privacy policy</button>
+                            <button className="btn btn-link p-0" style={{color: 'inherit'}}>Cookies</button>
+                            <button className="btn btn-link p-0" style={{color: 'inherit'}}>Help</button>
+                            <button className="btn btn-link p-0" style={{color: 'inherit'}}>FQAs</button>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
@@ -55,7 +55,7 @@ export default function Footer() {
             <div className="container copyright">
                 <div className="row">
                     <div className="col-md-6">
-                        <p>&copy; <a href="#">THE SANJIVANI NGO</a> | 2024, All Right Reserved.</p>
+                        <p>&copy; <a href="/">GRAM VIKAS TRUST</a> | 2024, All Right Reserved.</p>
                     </div>
                     <div className="col-md-6">
                         <p>Designed By <a href="https://www.linkedin.com/in/bhavesh-patil-92b7aa22a">TY_CS_C_52, VIT, Pune</a></p>

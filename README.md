@@ -1,6 +1,6 @@
-# The Sanjivani NGO - ReactJS & SpringBoot Project
+# Gram Vikas Trust - ReactJS & SpringBoot Project
 
-This project is a web application for The Sanjivani NGO. It's built using **ReactJS**, **Axios**, and **Bootstrap**.
+This project is a web application for Gram Vikas Trust. It's built using **ReactJS**, **Axios**, and **Bootstrap**.
 
 ## Features
 
@@ -26,7 +26,7 @@ git clone https://github.com/bhaveshpatil07/The-Sanjivani-NGO-ReactJs
 ##### Move to the desired folder:
 
 ```bash
-cd sanjivani
+cd gram-vikas-trust
 ```
 
 ##### Install the dependencies:

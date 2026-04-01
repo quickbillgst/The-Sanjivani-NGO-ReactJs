@@ -51,7 +51,7 @@ export default function Navbar() {
                                 </div>
                                 <div className="text">
                                     <i className="fa fa-envelope"></i>
-                                    <a href="mailto:sanjivani.vitswd@vit.edu"><p>sanjivani.vitswd@vit.edu</p></a>
+                                    <a href="mailto:contact@gramvikastrust.org"><p>contact@gramvikastrust.org</p></a>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ export default function Navbar() {
             {/* <!-- Nav Bar Start --> */}
             <div className="navbar navbar-expand-lg bg-dark navbar-dark">
                 <div className="container-fluid">
-                    <Link to="/" className="navbar-brand">SANJIVANI</Link>
+                    <Link to="/" className="navbar-brand">GRAM VIKAS TRUST</Link>
                     <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span className="navbar-toggler-icon"></span>
                     </button>
