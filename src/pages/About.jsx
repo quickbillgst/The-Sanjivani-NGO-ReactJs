@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import BackToTop from '../components/BackToTop';
 import Funds from '../components/Funds';
 import PageHeader from "../components/PageHeader";
+import GramVikasCards from "../components/GramVikasCards";
 
 export default function About() {
     return (
@@ -12,6 +13,7 @@ export default function About() {
             <PageHeader title="About Us" path="/about" name="About Us" />
             <Landing />
             <Funds />
+            <GramVikasCards />
             <Footer />
             <BackToTop />
         </>
