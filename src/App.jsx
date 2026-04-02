@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Donate from "./pages/Donate";
 import SignUp from "./pages/SignUp";
 import Admin from "./pages/Admin";
+import Team from "./pages/Team";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/donate" element={<Donate />} />
         <Route exact path="/signup" element={<SignUp />} />
+        <Route exact path="/team" element={<Team />} />
         <Route exact path="/admin" element={<Admin />} />
         <Route exact path="*" element={<Navigate to={"/"} />} />
       </Routes>

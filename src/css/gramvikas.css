@@ -54,6 +54,74 @@
   color: #567D42;
 }
 
+.gramvikas-info-section {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.gramvikas-info-section .section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.gramvikas-info-section .section-heading h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.gramvikas-info-section .section-heading p {
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.gramvikas-info-section .info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.gramvikas-info-section .info-card {
+  background: #f8faf7;
+  border: 1px solid #e5ece5;
+  border-radius: 14px;
+  padding: 24px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gramvikas-info-section .info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.gramvikas-info-section .info-icon {
+  font-size: 2rem;
+  color: #567D42;
+  margin-bottom: 16px;
+}
+
+.gramvikas-info-section .info-card h4 {
+  font-size: 1.3rem;
+  color: #212529;
+  margin-bottom: 12px;
+}
+
+.gramvikas-info-section .info-card p {
+  color: #555;
+  line-height: 1.7;
+}
+
+.gramvikas-info-section .info-footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+  .gramvikas-info-section .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .grid-4-detail p {
   color: #666;
   font-size: 0.9rem;

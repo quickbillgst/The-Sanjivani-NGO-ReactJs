@@ -90,12 +90,13 @@ export default function Navbar() {
                                 <div className={dropdownOpen ? "dropdown-menu show" : "dropdown-menu"}>
                                     <Link to="/" className="dropdown-item">Detail Page</Link>
                                     <Link to="/about" className="dropdown-item">What We Do</Link>
-                                    <Link to="/event" className="dropdown-item">Meet The Team</Link>
+                                    <Link to="/team" className="dropdown-item">Meet The Team</Link>
                                     <Link to="/contact" className="dropdown-item">Become A Volunteer</Link>
                                     <hr className='dropdown-divider' />
                                     <Link to="/donate" className="dropdown-item">Donate Now</Link>
                                 </div>
                             </div>
+                            <Link to="/team" className={`nav-item nav-link ${path === '/team' ? "active" : ""}`}>Team</Link>
                             <Link to="/contact" className={`nav-item nav-link ${path === '/contact' ? "active" : ""}`}>Contact</Link>
                         </div>
                     </div>

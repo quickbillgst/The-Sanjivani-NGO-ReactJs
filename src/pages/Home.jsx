@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 import Landing from "../components/Landing";
 import Funds from "../components/Funds";
+import GramVikasInfo from "../components/GramVikasInfo";
 import BackToTop from "../components/BackToTop";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
                 </div>
             </div>
             <Landing />
+            <GramVikasInfo />
             <Initiatives />
             <Funds />
             <ContactForm />
